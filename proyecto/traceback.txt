@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 39, in script
+    friend "Friend: Do you really think that there’s something in these caves that could drive an entire team insane?"
+Exception: Sayer 'friend' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 39, in script
+    friend "Friend: Do you really think that there’s something in these caves that could drive an entire team insane?"
+  File "C:\Users\arcan\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\arcan\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'friend' is not defined.
+
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.0.3.22090809
+proyecto 1.0
+Wed Mar 15 02:14:01 2023
